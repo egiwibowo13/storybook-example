@@ -15,7 +15,8 @@
     "prestorybook": "rnstl",
     "start-storybook-web": "./node_modules/@storybook/react/bin/index.js",
     "build-storybook-web": "./node_modules/@storybook/react/bin/build.js",
-    "storybook-web": "yarn run start-storybook-web"
+    "storybook-web": "yarn run start-storybook-web",
+    "chromatic": "npx chromatic --project-token=b76950bad259"
   },
   "dependencies": {
     "react": "17.0.2",
